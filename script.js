@@ -11,7 +11,7 @@ function fibonacci(num) {
 		for( let i = 2; i<=num.length; i++){
 			ans[i] = ans[i-1]+ ans[i-2];
 		}
-		return ans[num];
+		return ans[num-1];
 		
 	}
 
